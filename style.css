@@ -1,0 +1,128 @@
+*{
+ margin: 0;   
+ padding: 0;
+}
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+
+    background-color:black;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.profile-image{
+    height: 120px;
+width: 100px;
+border: 3px solid thistle;
+border-radius: 50%;
+float: left;
+}
+.my-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: red;
+}
+.my-contact{
+    float: right;
+    padding: 30px;
+}
+.my-contact a{
+ text-decoration: none;
+ color: red;
+ font-weight: bold;
+
+}
+.my-contact a:hover{
+background-color:yellowgreen;
+text-decoration: underline;
+}
+.div-clear{
+    clear:both;
+}
+hr{
+    border: solid rgb(10, 160, 35) 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*---------------
+personal section start
+-------------------*/
+#personal-section{
+
+}
+.content{
+margin-bottom: 30px;
+}
+.left-div   {
+width: 30%;
+float:left;
+}
+.right-div{
+width: 70%;
+float: left;
+color: red;
+}
+.common-hr{
+    border: solid rgb(10, 160, 35) 1.5px;
+    border-bottom: none;
+    width: 100%;
+    margin:20px auto;
+}
+/*--------------
+educationl background start
+------------------*/
+.my-university a{
+    color: red;
+    text-decoration: none;
+}
+.my-university a:hover{
+    
+    color:grey;
+    text-decoration: none;
+}
+/*--------------
+educationl background end
+------------------*/
+/*--------------
+personal strenght  start
+------------------*/
+.perssonal-strength-left{
+float:left;
+width: 45%;
+}
+.perssonal-strength-right{
+    float: right;
+    width: 45%;
+}
+/*--------------
+personal strenght  end
+------------------*/
+
+/*-------
+footer start
+----------*/
+.final-container{
+background:wheat;
+text-align: center;
+padding: 20px;
+}
+.copy{
+color: black;
+}
+.final-container a{
+    text-decoration: none;
+    margin: 20px;
+}
+.final-container p{
+   
+    margin-top: 20px;
+}
